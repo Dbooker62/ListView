@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val listView = findViewById<ListView>(R.id.listview)
-        val name = arrayOf("Android" ,"PHP" , "Java" , "C++" , "ASP .NET" , "Swift" )
+        val name = arrayOf("Potato" , "Cucumber"  , "Onion" , "Beat Root" , "Carrot" , "Dragon Fruit")
         val arrayAdapter: ArrayAdapter<String> = ArrayAdapter(
             this, android.R.layout.simple_list_item_1, name
         )
